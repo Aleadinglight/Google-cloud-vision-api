@@ -1,0 +1,22 @@
+{
+  "name": "google-cloud-api",
+  "version": "1.0.0",
+  "description": "using Google Cloud Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleadinglight/Google-cloud-vision-api.git"
+  },
+  "author": "Tam Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleadinglight/Google-cloud-vision-api/issues"
+  },
+  "homepage": "https://github.com/Aleadinglight/Google-cloud-vision-api#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^0.20.0"
+  }
+}
