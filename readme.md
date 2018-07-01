@@ -1,4 +1,6 @@
-#Google Cloud Vision API
+# Google Cloud Vision API
+
+Using Google Cloud API with Node.js
 
 ## Requirements:
 
