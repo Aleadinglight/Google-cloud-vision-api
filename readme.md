@@ -30,7 +30,7 @@ More information can be found [here](https://cloud.google.com/vision/docs/face-t
 
 ## Instruction on how to run
 
-All the tutorials below can be found in [scripts]() folder. You can run command from the master folder
+All the tutorials below can be found in [scripts](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts) folder. You can run command from the master folder
 
 ```bash
 # You should export the GGOOGLE_APPLICATION_CREDENTIALS where you want to run the scripts from
@@ -51,7 +51,7 @@ human
 businesspers
 ```
 
-If the tutorial output a picture. Please head to [output_images]() to see it.
+If the tutorial output a picture. Please head to [output_images](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/output_images) to see it.
 
 ## Tutorials
 
