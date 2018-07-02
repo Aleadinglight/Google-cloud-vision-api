@@ -4,7 +4,7 @@ Using Google Cloud API with Node.js
 
 ## Requirements:
 
-Run 
+Install Google Cloud API 
 ```bash
 npm init
 npm install --save @google-cloud/vision
@@ -19,4 +19,12 @@ Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to the file path of 
 export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
-More information [here](https://cloud.google.com/vision/docs/face-tutorial).
+For drawing bounding box we will use he the [node-canvas](https://github.com/Automattic/node-canvas#installation) library.
+```
+# Install dependencies
+sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
+
+npm install canvas
+```
+
+More information can be found [here](https://cloud.google.com/vision/docs/face-tutorial).

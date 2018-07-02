@@ -12,7 +12,7 @@ function detectFaces(inputFile, callback){
         .then(results => {
             const faces = results[0].faceAnnotations;
             var numFaces = faces.length;
-            console.log('Found ' + numFaces + (numFaces === 1 ? ' face' : 'faces'));
+            console.log('Found ' + numFaces + (numFaces === 1 ? ' face' : ' faces'));
             callback(null, faces);
         })
         .catch(err => {
@@ -23,7 +23,7 @@ function detectFaces(inputFile, callback){
 
 function main(callback){
     callback('Running...');
-    var inputFile = inputFile || 'trump.jpg';
+    var inputFile = inputFile || './images/trump.jpg';
     detectFaces(inputFile, (err, faces) => {
         if (err){
             return callback(err);
