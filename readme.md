@@ -20,11 +20,39 @@ export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
 For drawing bounding box we will use he the [node-canvas](https://github.com/Automattic/node-canvas#installation) library.
-```
+```bash
 # Install dependencies
 sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
-
 npm install canvas
 ```
 
 More information can be found [here](https://cloud.google.com/vision/docs/face-tutorial).
+
+## Instruction on how to run
+
+All the tutorials below can be found in [scripts]() folder. You can run command from the master folder
+
+```bash
+# You should export the GGOOGLE_APPLICATION_CREDENTIALS where you want to run the scripts from
+node ./scripts/example.js
+```
+
+The following results
+```
+Labels:
+senior citizen
+person
+official
+chin
+smile
+elder
+forehead
+human
+businesspers
+```
+
+If the tutorial output a picture. Please head to [output_images]() to see it.
+
+## Tutorials
+
+1.[Example.js](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/example.js): Example on how to use the API to label a human picture.
