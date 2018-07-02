@@ -1,4 +1,6 @@
-#Google Cloud Vision API
+# Google Cloud Vision API
+
+Using Google Cloud API with Node.js
 
 ## Requirements:
 
@@ -10,7 +12,8 @@ npm init
 npm install --save @google-cloud/vision
 ```
 
-Go to https://console.cloud.google.com and log in. Navigate to `APIs & Services`. Click on `Create credentials` -> `Service account key` -> Choose JSON format and fill in needed information. Your `.json` credetial file will be automaticly downloaded. 
+<<<<<<< HEAD
+Go to https://console.cloud.google.com and log in. Navigate to `APIs & Services`. Click on `Create credentials` -> `Service account key` -> Choose `JSON` format and fill in needed information. Your `.json` credetial file will be automaticly downloaded. 
 
 Download credentials file and add set the environment variable GOOGLE_APPLICATION_CREDENTIALS to the file path of the JSON file that contains your service account key. 
 ```
