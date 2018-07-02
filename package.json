@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Aleadinglight/Google-cloud-vision-api#readme",
   "dependencies": {
-    "@google-cloud/vision": "^0.20.0"
+    "@google-cloud/vision": "^0.20.0",
+    "canvas": "^1.6.11"
   }
 }

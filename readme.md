@@ -20,4 +20,3 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
 More information [here](https://cloud.google.com/vision/docs/face-tutorial).
- 
