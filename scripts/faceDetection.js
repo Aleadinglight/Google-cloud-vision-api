@@ -36,6 +36,7 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
         context.lineTo(origX, origY);
         context.stroke();
       });
+      
   
       // Write the result to a file
       console.log('Writing to file ' + outputFile);
