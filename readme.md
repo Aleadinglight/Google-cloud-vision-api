@@ -53,9 +53,13 @@ businesspers
 
 If the tutorial output a picture. Please head to [output_images](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/output_images) to see it.
 
+It is also a great idea to read the [docs](https://cloud.google.com/vision/docs/reference/rest/v1/images/annotate#FaceAnnotation) from Google.
+
 ## Tutorials
 
-1.[Example.js](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/example.js): Example on how to use the API to label a human picture.
+1.[Example](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/example.js): Example on how to use the API to label a human picture.
 
-<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/trump.png" width="256">
+2.[Face detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/faceDetection.js): Detect faces in a picture and draw a box to comfirm it.
+
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/me.png" width="256">
 

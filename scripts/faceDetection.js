@@ -72,8 +72,8 @@ function detectFaces(inputFile, callback){
 
 function main(callback){
     callback('Running...');
-    var inputFile = './images/trump.jpg';
-    var outputFile = './output_images/trump.png'
+    var inputFile = './images/me.png';
+    var outputFile = './output_images/me.png'
     // Detecting the faces
     detectFaces(inputFile, (err, faces) => {
         if (err){
