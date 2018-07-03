@@ -19,7 +19,7 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
       context.drawImage(img, 0, 0, img.width, img.height);
   
       // Now draw boxes around all the faces
-      context.strokeStyle = 'rgba(0,255,0,0.8)';
+      context.strokeStyle = 'rgba(255,0,0,0.8)';
       context.lineWidth = '5';
   
       faces.forEach(face => {
@@ -72,7 +72,7 @@ function detectFaces(inputFile, callback){
 
 function main(callback){
     callback('Running...');
-    var inputFile = './images/me.png';
+    var inputFile = './images/me.jpg';
     var outputFile = './output_images/me.png'
     // Detecting the faces
     detectFaces(inputFile, (err, faces) => {
