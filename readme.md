@@ -79,6 +79,6 @@ businesspers
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/me.png" width="256">
 
-3.[Feeling detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/feelingDetection.js): Detect faces and the feeling express on the faces. However, I found that this detection from Google is not really accurate.
+3.[Feeling detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/feelingDetection.js): Detect faces and the specific feeling expressed on the faces. However, I found that this detection from Google is not really accurate. In most cases, we can still consider it acceptable.
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/feelings.png" width="256">
