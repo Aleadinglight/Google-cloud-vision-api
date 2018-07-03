@@ -59,6 +59,22 @@ It is also a great idea to read the [docs](https://cloud.google.com/vision/docs/
 
 1.[Example](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/example.js): Example on how to use the API to label a human picture.
 
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/trump.jpg" width="256">
+
+Output:
+```
+Labels:
+senior citizen
+person
+official
+chin
+smile
+elder
+forehead
+human
+businesspers
+```
+
 2.[Face detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/faceDetection.js): Detect faces in a picture and draw a box to comfirm it.
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/me.png" width="256">
