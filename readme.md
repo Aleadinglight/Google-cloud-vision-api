@@ -56,3 +56,5 @@ If the tutorial output a picture. Please head to [output_images](https://github.
 ## Tutorials
 
 1.[Example.js](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/example.js): Example on how to use the API to label a human picture.
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/trump.png" width="256" height="256" title="Github Logo">
+
