@@ -5,7 +5,7 @@ const vision = require('@google-cloud/vision');
 const fs = require('fs');
 var client = new vision.ImageAnnotatorClient();
 
-function highlightFaces(inputFile, outputFile, faces, Canvas, callback) {
+function showFeeling(inputFile, outputFile, faces, Canvas, callback) {
     fs.readFile(inputFile, (err, image) => {
       if (err) {
         return callback(err);

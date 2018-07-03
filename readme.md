@@ -23,7 +23,7 @@ For drawing bounding box we will use he the [node-canvas](https://github.com/Aut
 ```bash
 # Install dependencies
 sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
-npm install canvas
+npm install canvas@next
 ```
 
 More information can be found [here](https://cloud.google.com/vision/docs/face-tutorial).

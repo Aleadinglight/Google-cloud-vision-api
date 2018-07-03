@@ -3,19 +3,18 @@
 
 const vision = require('@google-cloud/vision');
 const fs = require('fs');
-var client = new vision.ImageAnnotatorClient();
+const {createCanvas, Image } = require('canvas')
 
-function highlightFaces(inputFile, outputFile, faces, Canvas, callback) {
+var client = new vision.ImageAnnotatorClient();
+function highlightFaces(inputFile, outputFile, faces, callback) {
     fs.readFile(inputFile, (err, image) => {
       if (err) {
         return callback(err);
       }
-  
-      var Image = Canvas.Image;
       // Open the original image into a canvas
-      var img = new Image();
+      var img = new Image;
       img.src = image;
-      var canvas = new Canvas(img.width, img.height);
+      var canvas = createCanvas(img.width, img.height);
       var context = canvas.getContext('2d');
       context.drawImage(img, 0, 0, img.width, img.height);
   
@@ -81,7 +80,7 @@ function main(callback){
         }
         callback('Dectecting finished.');
         // Highlighting the faces
-        highlightFaces(inputFile, outputFile, faces, require('canvas'), err =>{
+        highlightFaces(inputFile, outputFile, faces, err =>{
             if (err) {
                 return callback(err);
             }
