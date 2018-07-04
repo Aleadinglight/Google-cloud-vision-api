@@ -33,7 +33,7 @@ More information can be found [here](https://cloud.google.com/vision/docs/face-t
 All the tutorials below can be found in [scripts](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts) folder. You can run command from the master folder
 
 ```bash
-# You should export the GGOOGLE_APPLICATION_CREDENTIALS where you want to run the scripts from
+# You should export the GOOGLE_APPLICATION_CREDENTIALS where you want to run the scripts from
 node ./scripts/example.js
 ```
 

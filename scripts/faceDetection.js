@@ -21,7 +21,8 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
       // Now draw boxes around all the faces
       context.strokeStyle = 'rgba(255,0,0,0.8)';
       context.lineWidth = '5';
-  
+      context.fillStyle = 'rgba(255,0,0,0.8)';
+
       faces.forEach(face => {
         context.beginPath();
         let origX = 0;
@@ -35,6 +36,10 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
         });
         context.lineTo(origX, origY);
         context.stroke();
+        // Show detection confident
+        context.font = '20px arial';
+        // 'origY-5' so the text wont get so close to the box
+        context.fillText('Detection confidence: '+(face.detectionConfidence*100).toFixed(2) + "%", origX, origY-5);
       });
       
   
@@ -72,7 +77,7 @@ function detectFaces(inputFile, callback){
 
 function main(callback){
     callback('Running...');
-    var inputFile = './images/me.jpg';
+    var inputFile = './images/me.png';
     var outputFile = './output_images/me.png'
     // Detecting the faces
     detectFaces(inputFile, (err, faces) => {
