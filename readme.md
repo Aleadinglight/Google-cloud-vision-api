@@ -87,4 +87,4 @@ businesspers
 
 5.[Other details detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/otherFaceDetection.js): Detect the faces and other details, such as: headwear likelihood, blurred likelihood, detection confidence.
 
-<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/putin.png" width="320">
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/putin.png" width="500">

@@ -37,7 +37,7 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
         context.lineTo(origX, origY);
         context.stroke();
         // Show detection confident
-        context.font = '20px arial';
+        context.font = 'bold 20px arial';
         // 'origY-5' so the text wont get so close to the box
         context.fillText('Detection confidence: '+(face.detectionConfidence*100).toFixed(2) + "%", origX, origY-5);
       });
