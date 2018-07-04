@@ -83,8 +83,14 @@ businesspers
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/feelings.png" width="320">
 
-4.[Face angle detection]()
-
-5.[Other details detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/otherFaceDetection.js): Detect the faces and other details, such as: headwear likelihood, blurred likelihood, detection confidence.
+4.[Other details detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/otherFaceDetection.js): Detect the faces and other details, such as: headwear likelihood, blurred likelihood, detection confidence.
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/putin.png" width="500">
+
+5.[Landmark detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/landmarkDetection.js): Detect face landmark and draw point on pictures.
+
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/landmark.png" width="400">
+
+If you want to take a look at the detail about the landmark point, you can go to line 50 and uncomment these lines.
+
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/landmark_detail.png" width="400">
