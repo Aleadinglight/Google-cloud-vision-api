@@ -93,7 +93,7 @@ businesspers
 
 If you want to take a look at the detail about the landmark point, you can go to line 50 and uncomment these lines.
 
-```
+```javascript
   //context.font = 'bold 10px arial';
   //context.textAlign = 'center';
   //context.fillText(landmark.type,pointX,pointY);
