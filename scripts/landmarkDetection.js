@@ -19,9 +19,9 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
     context.drawImage(img, 0, 0, img.width, img.height);
 
     // Now draw boxes around all the faces
-    context.strokeStyle = 'rgba(255,0,0,0.8)';
+    context.strokeStyle = 'rgba(255, 0, 255, 0.8)';
     context.lineWidth = '5';
-    context.fillStyle = 'rgba(255,0,0,0.8)';
+    context.fillStyle = 'rgba(255, 0, 255, 0.8)';
 
     faces.forEach(face => {
       context.beginPath();
@@ -47,9 +47,10 @@ function highlightFaces(inputFile, outputFile, faces, callback) {
           let pointX=landmark.position.x;
           let pointY=landmark.position.y;
           context.fillRect(pointX,pointY,3,3);
-          //context.font = 'bold 10px arial';
-          //context.textAlign = 'center';
-          //context.fillText(landmark.type,pointX,pointY);
+/*        context.font = 'bold 10px arial';
+          context.textAlign = 'center';
+          context.fillText(landmark.type,pointX,pointY);
+*/
         }
       });
       
@@ -91,7 +92,7 @@ function detectFaces(inputFile, callback){
 function main(callback){
     callback('Running...');
     var inputFile = './images/landmark.jpg';
-    var outputFile = './output_images/landmark_detail.png'
+    var outputFile = './output_images/landmark.png'
     // Detecting the faces
     detectFaces(inputFile, (err, faces) => {
         if (err){

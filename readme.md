@@ -94,9 +94,11 @@ businesspers
 If you want to take a look at the detail about the landmark point, you can go to line 50 and uncomment these lines.
 
 ```javascript
-  //context.font = 'bold 10px arial';
-  //context.textAlign = 'center';
-  //context.fillText(landmark.type,pointX,pointY);
+/*
+    context.font = 'bold 10px arial';
+    context.textAlign = 'center';
+    context.fillText(landmark.type,pointX,pointY);
+*/
 ```
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/landmark_detail.png" width="400">
@@ -107,6 +109,6 @@ If you want to take a look at the detail about the landmark point, you can go to
 
 The other texts is highlighted:
 
-<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/text2.png" width="600">
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/text2.png" width="400">
 
 
