@@ -1,25 +1,28 @@
 # Google Cloud Vision API
 
-Using Google Cloud API with Node.js
+Since the document from Google is only plain words without many illustrated result pictures, I wrote some tutorials for using Google Cloud API with Node.js for better understanding.
 
 ## Requirements:
+1. [Node.js](https://nodejs.org/en/download/) installed.
 
-Install Google Cloud API 
+2. Install Google Cloud API.
 ```bash
 npm init
 npm install --save @google-cloud/vision
 ```
 
-You will need to activate your billing account here: https://console.developers.google.com/billing.
+3. Get your Google Cloud account.
 
-Go to https://console.cloud.google.com and log in. Navigate to `APIs & Services`. Click on `Create credentials` -> `Service account key` -> Choose `JSON` format and fill in needed information. Your `.json` credetial file will be automaticly downloaded. 
+4. You will need to activate your billing account here: https://console.developers.google.com/billing.
 
-Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to the file path of the `.json` file that contains your service account key. 
+5. Go to https://console.cloud.google.com and log in. Navigate to `APIs & Services`. Click on `Create credentials` -> `Service account key` -> Choose `JSON` format and fill in needed information. Your `.json` credetial file will be automaticly downloaded. 
+
+6. Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to the file path of the `.json` file that contains your service account key. 
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
-For drawing bounding box we will use he the [node-canvas](https://github.com/Automattic/node-canvas#installation) library.
+7. For drawing bounding box we will use he the [node-canvas](https://github.com/Automattic/node-canvas#installation) library.
 ```bash
 # Install dependencies
 sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
@@ -30,7 +33,7 @@ More information can be found [here](https://cloud.google.com/vision/docs/face-t
 
 ## Instruction on how to run
 
-All the tutorials below can be found in [scripts](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts) folder. You can run command from the master folder
+All the tutorials below can be found in [scripts](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts) folder. You can run this command from the master folder
 
 ```bash
 # You should export the GOOGLE_APPLICATION_CREDENTIALS where you want to run the scripts from
