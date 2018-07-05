@@ -100,3 +100,13 @@ If you want to take a look at the detail about the landmark point, you can go to
 ```
 
 <img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/landmark_detail.png" width="400">
+
+6.[Text detection](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/textDetection.js): detect texts in a pictures and draw boxes over them. The return result from Google includes the overall full text so remember to exclude that one when count. I showed it in the console instead.
+
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/text_detection_console.png" width="200">
+
+The other texts is highlighted:
+
+<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/output_images/text2.png" width="600">
+
+
