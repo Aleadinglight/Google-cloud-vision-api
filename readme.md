@@ -1,6 +1,6 @@
 # Google Cloud Vision API
 
-Since the document from Google is only plain words without many illustrated result pictures, I wrote some tutorials for using Google Cloud API with Node.js for better understanding.
+Since the document from Google is only plain words without many illustrated result pictures, I wrote some tutorials on how to Google Cloud API with Node.js for better understanding.
 
 ## Requirements:
 1. [Node.js](https://nodejs.org/en/download/) installed.
@@ -13,9 +13,9 @@ npm install --save @google-cloud/vision
 
 3. Get your Google Cloud account.
 
-4. You will need to activate your billing account here: https://console.developers.google.com/billing.
+4. You will need to activate your [billing account](https://console.developers.google.com/billing.). 
 
-5. Go to https://console.cloud.google.com and log in. Navigate to `APIs & Services`. Click on `Create credentials` -> `Service account key` -> Choose `JSON` format and fill in needed information. Your `.json` credetial file will be automaticly downloaded. 
+5. Go to [your Google Cloud Account](https://console.cloud.google.com) and log in. Navigate to `APIs & Services`. Click on `Create credentials` -> `Service account key` -> Choose `JSON` format and fill in needed information. Your `.json` credetial file will be automaticly downloaded. 
 
 6. Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to the file path of the `.json` file that contains your service account key. 
 ```bash
