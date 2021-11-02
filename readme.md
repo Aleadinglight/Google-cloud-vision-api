@@ -62,7 +62,7 @@ It is also a great idea to read the [docs](https://cloud.google.com/vision/docs/
 
 1.[Example](https://github.com/Aleadinglight/Google-cloud-vision-api/tree/master/scripts/example.js): Example on how to use the API to label a human picture.
 
-<img src="https://github.com/Aleadinglight/Google-cloud-vision-api/blob/master/images/trump.jpg" width="320">
+<img src="" width="320">
 
 Output:
 ```
